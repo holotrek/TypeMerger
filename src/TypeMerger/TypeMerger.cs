@@ -237,7 +237,7 @@ namespace TypeMerger {
             BuildProperties(typeBuilder, fields);
 
             //return Type definition
-            return typeBuilder.CreateType();
+            return typeBuilder.CreateTypeInfo();
         }
 
         /// <summary>
